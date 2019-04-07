@@ -1,4 +1,4 @@
-{
+{ 
   "name" : "Excel2APEX",
   "version" : "0.800",
   "description" : "A simple ETL-wizard plugin for Oracle APEX.",
