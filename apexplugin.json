@@ -1,0 +1,34 @@
+apexplugin.json
+{
+  "name" : "Excel2APEX",
+  "version" : "0.800",
+  "description" : "A simple ETL-wizard plugin for Oracle APEX.",
+  "keywords" : ["excel", "APEX-collection", "xlsx", "CSV", "xls"],
+  "homepage" : "https://github.com/antonscheffer/Excel2APEX",
+  "bugs" : {
+    "url" : "https://github.com/antonscheffer/Excel2APEX/issues",
+    "email" : "excel2collection@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Anton Scheffer",
+    "email" : "excel2collection@gmail.com",
+    "donationUrl" : "https://www.paypal.me/apexplugins/3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/antonscheffer/Excel2APEX.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.0.0.0.0 ],
+    "apex" : {
+      "versions" : ["4.02", "19.1.0"],
+      "plugin" : {
+        "internalName" : "SCHEFFER.EXCEL2APEX",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=33308:1",
+        "previewImage" : "https://raw.githubusercontent.com/antonscheffer/Excel2APEX/master/different_mappings.png"
+      }
+    }
+  }
+}
