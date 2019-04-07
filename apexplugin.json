@@ -20,13 +20,13 @@ apexplugin.json
     "url" : "https://github.com/antonscheffer/Excel2APEX.git"
   },
   "oracle" : {
-    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.0.0.0.0 ],
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.0.0.0.0" ],
     "apex" : {
       "versions" : ["4.02", "19.1.0"],
       "plugin" : {
         "internalName" : "SCHEFFER.EXCEL2APEX",
         "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=33308:1",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=80428:1",
         "previewImage" : "https://raw.githubusercontent.com/antonscheffer/Excel2APEX/master/different_mappings.png"
       }
     }
